@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Enable/Disable</string>
+            <key>footerText</key>
+            <string>Snapchat restart required</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>cellClass</key>
+            <string>SecretShotPreferences.YellowInfoSwitchTableCell</string>
+            <key>default</key>
+            <true/>
+            <key>key</key>
+            <string>enabled</string>
+            <key>icon</key>
+            <string>icon.png</string>
+            <key>label</key>
+            <string>Enable</string>
+        </dict>
+        
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Miscellaneous</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>cellClass</key>
+            <string>SecretShotPreferences.RedTextTableCell</string>
+            <key>action</key>
+            <string>killSnapchat</string>
+            <key>icon</key>
+            <string>snapchat.png</string>
+            <key>label</key>
+            <string>Kill Snapchat</string>
+        </dict>
+        
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Links</string>
+            <key>footerText</key>
+            <string>© Eamon Tracey 2021</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>action</key>
+            <string>openDiscord</string>
+            <key>icon</key>
+            <string>discord.png</string>
+            <key>label</key>
+            <string>Contact Me</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>action</key>
+            <string>openGithub</string>
+            <key>icon</key>
+            <string>github.png</string>
+            <key>label</key>
+            <string>Follow my Github</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>action</key>
+            <string>openPaypal</string>
+            <key>icon</key>
+            <string>paypal.png</string>
+            <key>label</key>
+            <string>Make a Donation</string>
+        </dict>
+
+	</array>
+	<key>title</key>
+	<string>SecretShot</string>
+</dict>
+</plist>

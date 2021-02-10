@@ -1,0 +1,4 @@
+module SecretShotPreferencesC {
+    umbrella "."
+    export *
+}
