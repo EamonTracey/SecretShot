@@ -12,6 +12,16 @@
 
 %end
 
+%hook UIScreen
+
+- (BOOL)isCaptured {
+
+    return NO;
+
+}
+
+%end
+
 static void loadPreferences() {
 
 	NSMutableDictionary *preferences = [[NSMutableDictionary alloc] initWithContentsOfFile:@"/var/mobile/Library/Preferences/com.eamontracey.secretshotpreferences.plist"];

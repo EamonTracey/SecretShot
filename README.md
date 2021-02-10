@@ -1,2 +1,2 @@
 # SecretShot
-iOS tweak to block Snapchat screenshot detection
+iOS tweak to block Snapchat screenshot and screen recording detection

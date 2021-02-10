@@ -31,7 +31,7 @@ class YellowInfoSwitchTableCell: PSSwitchTableCell {
     }
     
     @objc func infoButtonTapped() {
-        let message = "Thank you for downloading SecretShot! When enabled, SecretShot will block Snapchat from knowing when you take screenshots. SecretShot does not hook Snapchat classes. This means Snapchat will not detect any tweak injection (thus, you will not be banned). Enjoy!"
+        let message = "Thank you for downloading SecretShot! When enabled, SecretShot will block Snapchat from knowing when you take screenshots and screen recordings. SecretShot does not hook Snapchat classes. This means Snapchat will not detect any tweak injection (thus, you will not be banned). Enjoy!"
         let alert = UIAlertController(title: "Tweak Info", message: message, preferredStyle: .alert)
         let okAction = UIAlertAction(title: "Okay!", style: .default, handler: .none)
         alert.addAction(okAction)
