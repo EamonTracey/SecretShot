@@ -73,17 +73,7 @@
             <key>icon</key>
             <string>github.png</string>
             <key>label</key>
-            <string>Follow my Github</string>
-        </dict>
-        <dict>
-            <key>cell</key>
-            <string>PSButtonCell</string>
-            <key>action</key>
-            <string>openPaypal</string>
-            <key>icon</key>
-            <string>paypal.png</string>
-            <key>label</key>
-            <string>Make a Donation</string>
+            <string>Source Code ❤️</string>
         </dict>
 
 	</array>

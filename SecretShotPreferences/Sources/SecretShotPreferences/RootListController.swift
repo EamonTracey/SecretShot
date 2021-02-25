@@ -57,11 +57,7 @@ class RootListController: IOListController {
     }
     
     @objc func openGithub() {
-        UIApplication.shared.open(URL(string: "https://github.com/EamonTracey")!, options: .init(), completionHandler: .none)
-    }
-    
-    @objc func openPaypal() {
-        UIApplication.shared.open(URL(string: "https://www.paypal.com/donate?business=D76LGWEBH47YL&currency_code=USD")!, options: .init(), completionHandler: .none)
+        UIApplication.shared.open(URL(string: "https://github.com/EamonTracey/SecretShot")!, options: .init(), completionHandler: .none)
     }
     
 }
